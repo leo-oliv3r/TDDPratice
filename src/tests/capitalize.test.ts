@@ -1,7 +1,7 @@
 import { describe, expect, test } from "vitest";
 import { capitalizeFirstLetter } from "../capitalize";
 
-describe("Capitalize will", () => {
+describe("capitalizeFirstLetter will", () => {
     test("capitalize the first letter", () => {
         expect(capitalizeFirstLetter("some phrase")).toBe("Some phrase");
     });
