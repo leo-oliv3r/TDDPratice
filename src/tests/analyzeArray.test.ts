@@ -1,11 +1,3 @@
-/*
- TESTS LIST
- ----------
- -  Correctly analyze array with positive integers
- -  Correctly analyze array with negative integers
- -  Correctly analyze array with one integer or decimal number
-*/
-
 import { describe, expect, test } from "vitest";
 import { createArrayReport } from "../analyzeArray";
 
