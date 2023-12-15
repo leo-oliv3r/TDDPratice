@@ -1,4 +1,5 @@
 import { stringCalculator } from "./string-calculator";
+import { describe, expect, test } from "vitest";
 
 describe("string-calculator", () => {
     test("given empty string should return 0", () => {

@@ -1,8 +1,9 @@
 import { Copier, Destination, Source } from "./character-copy";
+import { describe, expect, test, vi } from "vitest";
 
 describe("character-copy", () => {
     function createMockSource(chars: string[]) {
-        const mockReadChar = jest.fn();
+        const mockReadChar = vi.fn();
         for (const char of chars) {
             mockReadChar.mockReturnValueOnce(char);
         }
@@ -17,7 +18,7 @@ describe("character-copy", () => {
 
     function createMockDestination() {
         const writtenCharacters: string[] = [];
-        const mockWriteChar = jest.fn((c) => writtenCharacters.push(c));
+        const mockWriteChar = vi.fn((c) => writtenCharacters.push(c));
         const dest = {
             writeChar: mockWriteChar,
             writtenCharacters,

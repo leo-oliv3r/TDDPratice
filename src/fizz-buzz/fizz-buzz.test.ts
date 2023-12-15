@@ -1,4 +1,5 @@
 import { FizzBuzz } from "./fizz-buzz";
+import { describe, expect, test } from "vitest";
 
 describe("fizz-buzz", () => {
     describe("fizz", () => {

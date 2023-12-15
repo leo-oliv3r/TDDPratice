@@ -1,4 +1,5 @@
 import { ageCalculator } from "./age-calculator";
+import { describe, expect, test } from "vitest";
 
 describe("ageCalculator", () => {
     describe("invalid input", () => {
