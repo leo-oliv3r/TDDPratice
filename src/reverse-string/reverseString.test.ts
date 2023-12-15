@@ -1,5 +1,5 @@
 import { describe, expect, test } from "vitest";
-import { reverseString } from "../reverseString";
+import { reverseString } from "./reverseString";
 
 describe("reverseString will", () => {
     test("correctly reverse a string", () => {

@@ -1,5 +1,5 @@
 import { describe, expect, test } from "vitest";
-import { capitalizeFirstLetter } from "../capitalize";
+import { capitalizeFirstLetter } from "./capitalize";
 
 describe("capitalizeFirstLetter will", () => {
     test("capitalize the first letter", () => {

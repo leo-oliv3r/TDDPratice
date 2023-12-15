@@ -1,5 +1,5 @@
 import { describe, expect, test } from "vitest";
-import { createArrayReport } from "../analyzeArray";
+import { createArrayReport } from "./analyzeArray";
 
 describe("createArrayReport will", () => {
     test("given an empty array, return null for properties and length 0", () => {

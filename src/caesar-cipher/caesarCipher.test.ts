@@ -1,5 +1,5 @@
 import { describe, test, expect } from "vitest";
-import { caesarCipher } from "../caesarCipher";
+import { caesarCipher } from "./caesarCipher";
 
 describe("caesarCipher will", () => {
     test("throw if negative number is passed as nrOfShifts argument", () => {

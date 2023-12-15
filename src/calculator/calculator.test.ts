@@ -1,5 +1,5 @@
 import { describe, test, expect } from "vitest";
-import { calculator } from "../calculator";
+import { calculator } from "./calculator";
 
 describe("Calculator will", () => {
     test("correctly add two numbers", () => {
